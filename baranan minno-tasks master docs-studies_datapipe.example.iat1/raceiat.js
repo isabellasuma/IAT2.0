@@ -11,12 +11,16 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 height : 4 //Used to position the "Or" in the combined block.
             }, 
             stimulusMedia : [ //Stimuli content as PIP's media objects
-                {image: 'bm1_nc.jpg'},
-                {image: 'bm2_nc.jpg'},
-                {image: 'bm3_nc.jpg'},
-                {image: 'bf1_nc.jpg'},
-                {image: 'bf2_nc.jpg'},                 
-                {image: 'bf3_nc.jpg'}     
+                {image: 'images/black/CFD-WF-002-004-N.jpg'},
+                {image: 'images/black/CFD-WF-010-004-N.jpg'},
+                {image: 'images/black/CFD-WF-026-002-N.jpg'},
+                {image: 'images/black/CFD-WF-034-006-N.jpg'},
+                {image: 'images/black/CFD-WF-204-038-N.jpg'},                 
+                {image: 'images/black/CFD-WF-210-086-N.jpg'},
+                {image: 'images/black/CFD-WF-224-099-N.jpg'},
+                {image: 'images/black/CFD-WF-240-083-N.jpg'},
+                {image: 'images/black/CFD-WF-248-129-N.jpg'},
+                {image: 'images/black/CFD-WF-250-167-N.jpg'}
             ],
             //Stimulus css (style)
             stimulusCss : {color:'#31940F','font-size':'2.3em'}
@@ -29,12 +33,16 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 height : 4 //Used to position the "Or" in the combined block.
             }, 
             stimulusMedia : [ //Stimuli content as PIP's media objects
-                {image: 'wm1_nc.jpg'},
-                {image: 'wm2_nc.jpg'},
-                {image: 'wm3_nc.jpg'},
-                {image: 'wf1_nc.jpg'},
-                {image: 'wf2_nc.jpg'},
-                {image: 'wf3_nc.jpg'}
+                {image: 'images/white/CFD-WF-003-003-N.jpg'},
+                {image: 'images/white/CFD-WF-012-002-N.jpg'},
+                {image: 'images/white/CFD-WF-022-017-N.jpg'},
+                {image: 'images/white/CFD-WF-024-003-N.jpg'},
+                {image: 'images/white/CFD-WF-027-003-N.jpg'},
+                {image: 'images/white/CFD-WF-205-006-N.jpg'},
+                {image: 'images/white/CFD-WF-220-101-N.jpg'},
+                {image: 'images/white/CFD-WF-233-112-N.jpg'},
+                {image: 'images/white/CFD-WF-238-023-N.jpg'},
+                {image: 'images/white/CFD-WF-242-001-N.jpg'}
             ],
             //Stimulus css (style)
             stimulusCss : {color:'#31940F','font-size':'2.3em'}
