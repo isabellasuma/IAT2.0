@@ -37,24 +37,24 @@ define(['managerAPI',
         //Select randomly what attribute words to see. 
         //Based on Axt, Feng, & Bar-Anan (2021).
         posWords : API.shuffle([
-            'Love', 'Cheer', 'Friend', 'Pleasure',
-            'Adore', 'Cheerful', 'Friendship', 'Joyful', 
-            'Smiling','Cherish', 'Excellent', 'Glad', 
-            'Joyous', 'Spectacular', 'Appealing', 'Delight', 
-            'Excitement', 'Laughing', 'Attractive','Delightful', 
-            'Fabulous', 'Glorious', 'Pleasing', 'Beautiful', 
-            'Fantastic', 'Happy', 'Lovely', 'Terrific', 
-            'Celebrate', 'Enjoy', 'Magnificent', 'Triumph'
+            'Ambitious', 'Intelligent', 'Capable', 'Skilled',
+            'Focused', 'Diligent', 'Motivated', 'Successful', 
+            'Competent','Accomplished', 'Hardworking', 'Creative', 
+            'Proficient', 'Efficient', 'Responsible', 'Resourceful', 
+            'Disciplined', 'Organized', 'Determined','Brilliant', 
+            'Analytical', 'Innovative', 'Insightful', 'Reflective', 
+            'Knowledgeable', 'Strategic', 'Disciplined', 'Logical', 
+            'Helpful', 'Creative', 'Curious', 'Dedicated'
         ]), 
         negWords : API.shuffle([
-            'Abuse', 'Grief', 'Poison', 'Sadness', 
-            'Pain', 'Despise', 'Failure', 'Nasty', 
-            'Angry', 'Detest', 'Horrible', 'Negative', 
-            'Ugly', 'Dirty', 'Gross', 'Evil', 
-            'Rotten','Annoy', 'Disaster', 'Horrific',  
-            'Scorn', 'Awful', 'Disgust', 'Hate', 
-            'Humiliate', 'Selfish', 'Tragic', 'Bothersome', 
-            'Hatred', 'Hurtful', 'Sickening', 'Yucky'
+            'Lazy', 'Unmotivated', 'Incompetent', 'Stupid', 
+            'Inefficient', 'Irresponsible', 'Failure', 'Unfocused', 
+            'Unskilled', 'Clumsy', 'Disorganized', 'Negligent', 
+            'Dull', 'Slow', 'Useless', 'Unambitious', 
+            'Forgetful','Careless', 'Inconsistent', 'Underachieving',  
+            'Ignorant', 'Unprepared', 'Forgetful', 'Unreliable', 
+            'Uncooperative', 'Irrational', 'Disinterested', 'Unqualified', 
+            'Helpless', 'Confused', 'Indecisive', 'Uncertain'
         ])
     });
 
